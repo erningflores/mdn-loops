@@ -1,0 +1,29 @@
+body{
+    background-color: blue;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.output{
+    flex-grow: 1;
+    width: 90vw;
+    height: 70vh;
+    margin: 20px;
+    padding: 10px;
+}
+.container2, .container1{
+    align-self: flex-start;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.container5, .container3{
+    align-self: flex-start;
+}
